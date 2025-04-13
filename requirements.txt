@@ -1,0 +1,12 @@
+Flask
+pandas
+numpy
+openpyxl
+psycopg2-binary
+sqlalchemy
+python-dotenv
+matplotlib
+seaborn
+plotly
+google-generativeai
+gunicorn
