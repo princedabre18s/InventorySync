@@ -20,7 +20,7 @@ load_dotenv()
 API_KEY = os.getenv("GEMINI_API_KEY")
 if not API_KEY:
     print("Warning: GEMINI_API_KEY not found in environment variables. Please set it.")
-    API_KEY = "AIzaSyDc_UKsk6OFy4PRi7wFNZwT1ZFvKV5UAPM"  # Placeholder, will fail if not replaced
+    API_KEY = ""  # Placeholder, will fail if not replaced
 
 genai.configure(api_key=API_KEY)
 
